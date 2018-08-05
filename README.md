@@ -3,9 +3,9 @@ Link to the competition: https://www.kaggle.com/c/digit-recognizer
 
 My model is definitely not the best model there is, but it achieved the accuracy of 0.94885 on the test set.
 I will update the model soon, currently planned:
-- reshape the input data from a 1D vector back to a 2D matrix. (done, model_v2)
-I think the accuracy should increase because reshaping will bring back the shapes of the digits.
-Comparing to the previous model, this model takes much more time to train,
+- reshape the input data from a 1D vector back to a 2D matrix.
+I think the accuracy should increase because reshaping will bring back the shapes of the digits. (done, model_v2)
+Comparing to the previous model, model_v2 takes much more time to train,
 more computationally expensive and memory-hungry.
 For example, model.py training over 40 epochs with 512 mini-batch size
 took ~20 sec on my GTX 650. 20 epochs on this model with 100 mini-batch size took 33 minutes.
