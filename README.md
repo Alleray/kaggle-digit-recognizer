@@ -2,6 +2,7 @@ MNIST database is a large database of handwritten digits and it's kind of "Hello
 Link to the competition: https://www.kaggle.com/c/digit-recognizer
 
 My model is definitely not the best model there is, but it achieved the accuracy of 0.94885 on the test set.
+update: trained model.py for 100 epochs and got a minor improvement in accuracy: submission scored 0.95657, which is an improvement of  previous score of 0.94885.
 I will update the model soon, currently planned:
 - reshape the input data from a 1D vector back to a 2D matrix.
 I think the accuracy should increase because reshaping will bring back the shapes of the digits. (done, model_v2)
