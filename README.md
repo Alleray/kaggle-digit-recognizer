@@ -8,7 +8,7 @@ I think the accuracy should increase because reshaping will bring back the shape
 Comparing to the previous model, model_v2 takes much more time to train,
 more computationally expensive and memory-hungry.
 For example, model.py training over 40 epochs with 512 mini-batch size
-took ~20 sec on my GTX 650. 20 epochs on this model with 100 mini-batch size took 33 minutes.
+took ~20 sec on my GTX 650. 20 epochs on model_v2 with 100 mini-batch size took 33 minutes.
 Played with hyperparameters and achieved this results:
 Loss = 0.2872409
 Dev set accuracy: 0.92
