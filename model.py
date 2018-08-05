@@ -6,7 +6,7 @@ from keras.utils import to_categorical
 from keras.backend import argmax
 import os
 
-#checking if model already exists
+#check if model already exists
 if not os.path.isfile('model.h5'):
     print('No model.h5 found.')
     print('Loading training data...')
@@ -78,6 +78,7 @@ else:
 print()
 print('Loading test set...')
 test_data = np.genfromtxt('datasets/test.csv', delimiter=',', skip_header=1)
+test_data /= 255 #normalizing test data
 
 print('Predicting labels...')
 predictions = model.predict(x=test_data, verbose=1, batch_size=512)
