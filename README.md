@@ -17,5 +17,5 @@ Overall decrease in performance.
 So, I think it's not worth to spend more time on this version.
 Change the mini-batch size if you are experiencing ResourceExhaustError.
 
-- try to implement a Convolutional NN architecture. CNNs are better in the field of computer vision.
+- implement a Convolutional NN architecture. CNNs are better in the field of computer vision.
 - look for the open submissions of other competitors. Should give some useful insights.
