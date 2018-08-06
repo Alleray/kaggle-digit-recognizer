@@ -15,11 +15,11 @@ if not os.path.isfile('model.h5'):
 
     print('Training data is loaded, got', train_data.shape[0], 'training examples. Shape:', train_data.shape)
 
-    np.random.shuffle(train_data) #shuffling data before splitting to train and dev sets
+    np.random.shuffle(train_data) #shuffle data before splitting to train and dev sets
 
     Y = train_data[:, 0]  #labels (0-9), 1st column of the train_data
     X = train_data[:, 1:] #pixel values, columns from 1 to end
-    X /= 255 #normalizing train_data
+    X /= 255 #normalizing pixel values
 
     #splitting train_data to train and dev sets ~70-30%
     X_train = X[:30000]
