@@ -18,5 +18,5 @@ Overall decrease in performance.
 So, I think it's not worth to spend more time on this version.
 Change the mini-batch size if you are experiencing ResourceExhaustError.
 
-- implement a Convolutional NN architecture. CNNs are better in the field of computer vision.
+- implement a Convolutional NN architecture. CNNs are better in the field of computer vision. (done, model_cnn) Your submission scored 0.97814, which is an improvement of your previous score of 0.95657. Added: TensorBoard and Checkpoints. Next stop: 99%+ accuracy. Wanna try data augmentation to increase the size of the training set.
 - look for the open submissions of other competitors. Should give some useful insights.
